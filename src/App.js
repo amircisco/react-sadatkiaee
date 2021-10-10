@@ -218,7 +218,7 @@ function App() {
             <br></br>
             <input onChange={(e)=>{setMac(e.target.value)}} type="text" placeholder={localStorage.getItem('mac','mac')}/><br></br><br></br>
             <input type="password" onChange={(e)=>{setOrginalPassword(e.target.value)}} /><br></br><br></br>
-            <button onClick={()=>{if(orginalPassword=="cisco@cisco@123") {localStorage.setItem('mac',mac); setShowSetting(false)} else{alert("انجام نشد"); setShowSetting(false)}  }} style={{backgroundColor:'green',width:100,color:'white'}}>ذخیره</button><br></br><br></br>
+            <button onClick={()=>{if(orginalPassword=="#$rfGT67%$Fd!@AZX$)jhU7^*W21") {localStorage.setItem('mac',mac); setShowSetting(false)} else{alert("انجام نشد"); setShowSetting(false)}  }} style={{backgroundColor:'green',width:100,color:'white'}}>ذخیره</button><br></br><br></br>
             <button onClick={()=>{setShowSetting(false); }} style={{backgroundColor:'green',width:100,color:'white'}}>انصراف</button>
           </center>
         </div> :
